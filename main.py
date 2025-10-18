@@ -9,7 +9,7 @@ def hello_world():
 @app.route('/hello/<name>')
 def hello_name(name):
     return f'<h1>Hello, {name}!</h1>' 
-
+ 
 @app.route('/about')
 def about():
     return '<p>This is a simple Flask web server</p>'
