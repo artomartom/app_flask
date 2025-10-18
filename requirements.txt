@@ -1,1 +1,3 @@
 flask
+gunicorn
+mod_wsgi
